@@ -1,2 +1,2 @@
-# gym-control-
+# gym-control
 Controle de Academia
