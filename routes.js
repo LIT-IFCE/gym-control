@@ -6,11 +6,11 @@ routes.get('/', function(req,res){
 })
 
 routes.get('/instructors', function(req,res){
-    return res.send("/instructors/index.js")
+    return res.render("instructors/index")
 })
 
 routes.get('/members', function(req,res){
-    return res.send("/members")
+    return res.render("/members")
 })
 
 module.exports = routes 
