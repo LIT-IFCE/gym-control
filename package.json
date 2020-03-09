@@ -1,0 +1,28 @@
+{
+  "name": "gym-control",
+  "version": "1.0.0",
+  "description": "Controle de Academia",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LIT-IFCE/gym-control.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LIT-IFCE/gym-control/issues"
+  },
+  "homepage": "https://github.com/LIT-IFCE/gym-control#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
