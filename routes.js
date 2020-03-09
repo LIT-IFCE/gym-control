@@ -6,7 +6,7 @@ routes.get('/', function(req,res){
 })
 
 routes.get('/instructors', function(req,res){
-    return res.send("/instructors")
+    return res.send("/instructors/index.js")
 })
 
 routes.get('/members', function(req,res){
