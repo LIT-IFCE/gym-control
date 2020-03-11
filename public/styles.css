@@ -47,7 +47,7 @@ header {
 .links a:hover{
     color:var(--primary-color);
 } 
-.links a::afe {
+.links a::after {
     content: "";
     background-color: var(--primary-color);
     width: 0;
