@@ -1,20 +1,20 @@
 <html>
-    <head>
-    {% block head %}
-        <title>Gym Manager</title>
-    {% endblock %}    
+    <head> 
+        {% block head %}
+            <title>Gym Manager</title>
+        {% endblock %}    
 
-    <link rel="stylesheet" href="/styles.css"
-
+        <link rel="stylesheet" href="/styles.css"
     </head>
-    <body>
-    <header>
-        <dvi class="links">
-            <a href="/" class="active">Instrutores</a>
-            <a href="/" >Membros</a>
-        </div>
-    </header>
     
+    <body>
+        <header>
+            <div class="links">
+                <a href="/" class="active">Instrutores</a>
+                <a href="/" >Membros</a>
+            </div>
+        </header>
+    {% block content %}{% endblock content %}
     </body>
 
 </html>
