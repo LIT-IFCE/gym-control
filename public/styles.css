@@ -36,6 +36,7 @@ header {
 .links a {
     text-decoration: none;
     color: #777;
+    position: relative;
 }
 .links a.active {
     font-weight: bold;
@@ -44,6 +45,20 @@ header {
 }
 
 .links a:hover{
-    text-decoration: underline;
     color:var(--primary-color);
 } 
+.links a::afe {
+    content: "";
+    background-color: var(--primary-color);
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+
+}
+
+.links a:hover:after{
+    width: 100%;
+    transition: width 400ms ease-in-out;
+}
