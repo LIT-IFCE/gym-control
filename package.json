@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/LIT-IFCE/gym-control#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nunjucks": "^3.2.0"
   },
   "devDependencies": {
